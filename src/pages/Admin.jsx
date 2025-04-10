@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { blogs } from '../data/blogs';
+import blogs from './blogs';  // Corrected import
 import { v4 as uuidv4 } from 'uuid';
 
 const Admin = () => {

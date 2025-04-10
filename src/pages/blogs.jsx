@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { blogs } from '../data/blogs';
+import blogs from '../data/blogs';  // Correct default import
 
 const Blogs = () => (
   <div>
@@ -15,4 +15,3 @@ const Blogs = () => (
 );
 
 export default Blogs;
-
