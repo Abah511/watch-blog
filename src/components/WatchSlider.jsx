@@ -2,26 +2,26 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./WatchSlider.css"; // We'll create this for custom styles
+import "./WatchSlider.css"; // Custom styles
 
 const watches = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    name: "Rolex Submariner",
-    link: "https://www.rolex.com/watches/submariner.html",
+    image: "https://cdn.shopify.com/s/files/1/0003/5815/4293/files/SV-8273_Cam001_M3.png?v=1744207839", 
+    name: "SVESTON",
+    link: "https://en-pk.svestonwatches.com/?srsltid=AfmBOoqG-6TNtLfaUv_3Tn0yI_zPtIEUunTz5RASSf3nff05wJ9oOxMT",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1600185365523-4f4c1d1d2921",
+    image: "https://currenwatches.com.pk/cdn/shop/collections/c5_1134e2ce-6f98-4b14-bce5-fe93f71b6f78_330x.jpg?v=1730379621",
     name: "Omega Speedmaster",
-    link: "https://www.omegawatches.com/speedmaster",
+    link: "https://currenwatches.com.pk/?srsltid=AfmBOooOXxLhcg1fMmOVVfzYx8s7ta16LFsZIN3RlOZFYUlcT3IZCxgD",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1573495612937-62c14f2113f1",
+    image: "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dw3a4cb689/TAG_Heuer_Carrera/CBN2010.BA0642/CBN2010.BA0642_0913.png",
     name: "Tag Heuer Carrera",
-    link: "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera",
+    link: "https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera.html",
   },
 ];
 
@@ -33,7 +33,7 @@ const WatchSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
   };
 
   return (

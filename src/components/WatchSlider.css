@@ -1,35 +1,54 @@
+/* WatchSlider.css */
+
 .watch-slider {
     width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #f7f7f7;
-    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
   
-  .slide {
+  .watch-slider .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .watch-slider .slick-slide img {
+    width: 200%;
+    max-width: 400px;  /* Adjust to your preferred max image size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .watch-slider .slick-prev, .watch-slider .slick-next {
+    font-size: 24px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+  }
+  
+  .watch-slider .slick-prev:hover, .watch-slider .slick-next:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .watch-slider h3 {
     text-align: center;
-  }
-  
-  .slide img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .slide h3 {
-    margin: 10px 0;
     font-size: 1.5rem;
+    margin-top: 15px;
+    color: #333;
   }
   
-  .slide a {
-    display: inline-block;
-    margin-top: 5px;
-    color: #007bff;
+  .watch-slider a {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #007BFF;
     text-decoration: none;
+    margin-top: 10px;
   }
   
-  .slide a:hover {
+  .watch-slider a:hover {
     text-decoration: underline;
   }
   
