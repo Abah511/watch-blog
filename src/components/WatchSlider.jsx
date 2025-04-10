@@ -23,7 +23,55 @@ const watches = [
     name: 'Tag Heuer Carrera',
     link: 'https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera.html',
   },
-  // Add more watches here...
+  {
+    id: 4,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/10/Pair-1.webp',
+    name: 'Rado Jubile Couple Watches',
+    link: 'https://rafiqsonsonline.com/product/rado-jubile-couple-watch/',
+  },
+  {
+    id: 5,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/07/GA-B2100-2A-300x300.webp',
+    name: 'Casio G-Shock GA-B2100-2A Resin Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=casio',
+  },
+  {
+    id: 6,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2025/02/FM40106A-D-300x300.webp',
+    name: 'Ferro FM40106A-D Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=ferro',
+  },
+  {
+    id: 7,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/12/unnamed-file-300x300.webp',
+    name: 'Daniel Klein DK13647-4 Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=daniel-klein',
+  },
+  {
+    id: 8,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2023/12/FS-5414-300x300.webp',
+    name: 'Fossil FS-5414 Goodwin Leather Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=fossil',
+  },
+  {
+    id: 9,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/02/565M-05-300x300.webp',
+    name: 'Halei 565M-CHTT-GLD Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=halei',
+  },
+  {
+    id: 10,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/05/MF0411G-02-1-300x300.webp',
+    name: 'Mini Focus MF0411G-02 Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=mini-focus',
+  },
+  {
+    id: 11,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/10/pAIR-16-300x300.webp',
+    name: 'Mathey Tissot Couple Watches',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=mathey-tissot',
+  },
+
 ];
 
 const latestWatches = [
@@ -51,7 +99,56 @@ const latestWatches = [
     name: 'Tag Heuer Carrera',
     link: 'https://www.tagheuer.com/us/en/timepieces/collections/tag-heuer-carrera.html',
   },
-  // Add 10 more watches
+  {
+    id: 5,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/10/Pair-1.webp',
+    name: 'Rado Jubile Couple Watches',
+    link: 'https://rafiqsonsonline.com/product/rado-jubile-couple-watch/',
+  },
+  {
+    id: 6,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/07/GA-B2100-2A-300x300.webp',
+    name: 'Casio G-Shock GA-B2100-2A Resin Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=casio',
+  },
+  {
+    id: 7,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2025/02/FM40106A-D-300x300.webp',
+    name: 'Ferro FM40106A-D Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=ferro',
+  },
+  {
+    id: 8,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/12/unnamed-file-300x300.webp',
+    name: 'Daniel Klein DK13647-4 Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=daniel-klein',
+  },
+  {
+    id: 9,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2023/12/FS-5414-300x300.webp',
+    name: 'Fossil FS-5414 Goodwin Leather Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=fossil',
+  },
+  {
+    id: 10,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/02/565M-05-300x300.webp',
+    name: 'Halei 565M-CHTT-GLD Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=halei',
+  },
+  {
+    id: 11,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/05/MF0411G-02-1-300x300.webp',
+    name: 'Mini Focus MF0411G-02 Metal Band Men Watch',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=mini-focus',
+  },
+  {
+    id: 12,
+    image: 'https://rafiqsonsonline.com/wp-content/uploads/2024/10/pAIR-16-300x300.webp',
+    name: 'Mathey Tissot Couple Watches',
+    link: 'https://rafiqsonsonline.com/product-category/mens-watch/?filter_brands=mathey-tissot',
+  },
+
+
 ];
 
 const WatchSlider = () => {

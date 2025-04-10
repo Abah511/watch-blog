@@ -1,23 +1,68 @@
+/* Navbar styles */
 .navbar {
-    background-color: #333;
-    padding: 10px 20px;
-  }
-  
-  .navbar-list {
-    list-style: none;
     display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between; /* Spread out items */
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #333;
+    color: white;
   }
   
-  .navbar-list li a {
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #fff;  /* White background behind the logo */
+    border-radius: 10px;
+  }
+  
+  .navbar-logo img {
+    height: 60px;  /* Logo height */
+    width: auto;
+    border-radius: 100%; /* Circular logo */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Hover transition */
+  }
+  
+  .navbar-logo img:hover {
+    transform: scale(1.5); /* Slightly enlarge the logo on hover */
+  }
+  
+  
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Space between the links */
+  }
+  
+  .navbar-links a {
     color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 1.1rem;
   }
   
-  .navbar-list li a:hover {
+  .navbar-links a:hover {
     text-decoration: underline;
-    color: #f0c040;
   }
+  
+  .navbar-buy {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+  
