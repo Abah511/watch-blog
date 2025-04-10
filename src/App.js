@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import blogs from './data/blogs';  // Corrected import
 import BlogDetail from './pages/BlogDetail';
 import Inventory from './pages/Inventory';
-import Contact from './pages/Contact';
+import Contact from './pages/contact';
 import Admin from './pages/Admin';
 
 
