@@ -1,0 +1,46 @@
+.newsletter-container {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 40px 20px;
+  }
+  
+  .newsletter-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    width: 250px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .newsletter-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-msg {
+    color: green;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
