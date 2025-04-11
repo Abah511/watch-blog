@@ -1,12 +1,12 @@
-/* Navbar styles */
+/* Navbar Styles */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Spread out items */
+  justify-content: space-between; /* Items کو دونوں طرف پھیلائیں */
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px 40px; /* زیادہ padding */
   background-color: #333;
   color: white;
-  transition: all 0.3s ease; /* Smooth transition between light and dark modes */
+  transition: all 0.3s ease;
 }
 
 .navbar-logo {
@@ -14,25 +14,25 @@
   align-items: center;
   justify-content: flex-start;
   padding: 10px;
-  background-color: #fff;  /* White background behind the logo */
+  background-color: #fff; /* لوگو کے پیچھے سفید پس منظر */
   border-radius: 10px;
 }
 
 .navbar-logo img {
-  height: 60px;  /* Logo height */
+  height: 60px;  /* لوگو کی اونچائی */
   width: auto;
-  border-radius: 100%; /* Circular logo */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-  transition: transform 0.3s ease; /* Hover transition */
+  border-radius: 100%; /* گول لوگو */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* نرمی سے سایہ */
+  transition: transform 0.3s ease; /* ہور پر لوگو کا سائز بدلنا */
 }
 
 .navbar-logo img:hover {
-  transform: scale(1.5); /* Slightly enlarge the logo on hover */
+  transform: scale(1.5); /* لوگو پر ہور کرتے ہوئے تھوڑا سا بڑا ہو جائے */
 }
 
 .navbar-links {
   display: flex;
-  gap: 20px; /* Space between the links */
+  gap: 30px; /* زیادہ اسپیسنگ */
 }
 
 .navbar-links a {
@@ -65,4 +65,44 @@
   background-color: #0056b3;
 }
 
+/* Dark Mode Styles */
+body.dark .navbar {
+  background-color: #222;
+  color: white;
+}
 
+body.dark .navbar-logo {
+  background-color: #444;
+}
+
+body.dark .navbar-links a {
+  color: #ddd;
+}
+
+body.dark .navbar-links a:hover {
+  color: #fff;
+}
+
+body.dark .buy-button {
+  background-color: #ff6600;
+}
+
+body.dark .buy-button:hover {
+  background-color: #cc5200;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #555;
+}
