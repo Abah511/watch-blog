@@ -47,12 +47,33 @@ const Admin = () => {
       <div className="admin-header">
         <h1>Admin Panel</h1>
         <nav className="admin-nav">
-          <a href="#" className="active">Add Blog</a>
-          <a href="#">Manage Blogs</a>
-          <a href="#">User Management</a>
-          <a href="#">Site Settings</a>
+          <button 
+            className="nav-button active"
+            onClick={() => {/* Add navigation logic here */}}
+          >
+            Add Blog
+          </button>
+          <button 
+            className="nav-button"
+            onClick={() => {/* Add navigation logic here */}}
+          >
+            Manage Blogs
+          </button>
+          <button 
+            className="nav-button"
+            onClick={() => {/* Add navigation logic here */}}
+          >
+            User Management
+          </button>
+          <button 
+            className="nav-button"
+            onClick={() => {/* Add navigation logic here */}}
+          >
+            Site Settings
+          </button>
         </nav>
       </div>
+
 
       <div className="admin-content">
         <div className="blog-form-container">
