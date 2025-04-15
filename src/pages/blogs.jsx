@@ -20,7 +20,7 @@ const Blogs = () => {
   return (
     <section className="blogs-container">
       <header className="blogs-header">
-        <h1>Watch Articles</h1>
+        <h1>The Watch Articles</h1>
         <p>Discover the latest insights, trends, and reviews in the world of luxury watches</p>
       </header>
 
