@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Blogs from './pages/blogs';  // Corrected import
 import BlogDetail from './pages/BlogDetail';
 import Inventory from './pages/Inventory';
-import Contact from './pages/contact';
+import Contact from './pages/Contact';
 import Admin from './pages/Admin';
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<BlogDetail />} />
         <Route path="/inventory" element={<Inventory />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
       <Footer />
