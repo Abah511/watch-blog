@@ -65,20 +65,7 @@
 .buy-button:hover {
   background-color: #0056b3;
 
-  /* Dark Mode Styles */
-.dark-mode .navbar {
-  background-color: #333;
-  color: #fff;
-}
 
-.dark-mode .navbar-links a {
-  color: #fff;
-}
-
-.dark-mode .navbar-buy .buy-button {
-  background-color: #444;
-  color: #fff;
-}
 
   
 }
